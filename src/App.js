@@ -1,16 +1,13 @@
-import React, { useState } from 'react'
-import Square from './components/Square'
-import './App.css'
+import './App.css';
+import TicTacToe from './components/TicTacToe'
 
 const App = () => {
-  const [squares, setSquares] = useState(Array(9).fill(null))
-
   return (
     <>
-      <h1>Tic Tac Toe</h1>
-      <Square />
+    <TicTacToe />
+  
     </>
   )
 }
 
-export default App
+export default App;
